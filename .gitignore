@@ -16,7 +16,6 @@ build/
 
 # Virtual environments
 .venv/
-.env
 
 # IDE
 .vscode/
@@ -50,7 +49,6 @@ models/
 whisperx_models/
 
 # Environment files
-.env
 .env.local
 
 # Temporary files

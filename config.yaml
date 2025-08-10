@@ -1,7 +1,12 @@
+io:
+  input_dir: "templates/in"
+  output_dir: "templates/out"
+  templates_dir: "templates"   # where soap.j2 lives
 asr:
   model: large-v3
   language: en
   vad: VAD
+  compute_type: COMPUTE_TYPE
 diarization:
   enabled: DIARIZATION_ENABLED
   max_speakers: 2
