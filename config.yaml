@@ -1,0 +1,20 @@
+asr:
+  model: large-v3
+  language: en
+  vad: VAD
+diarization:
+  enabled: DIARIZATION_ENABLED
+  max_speakers: 2
+  hf_token_env: HF_TOKEN
+preprocess:
+  sample_rate: SAMPLE_RATE
+  mono: MONO
+  loudnorm: LOUDNORM
+note:
+  mode: MODE
+  ollama_model: OLLAMA_MODEL
+  ollama_temperature: OLLAMA_TEMPERATURE
+  template: TEMPLATE_PATH
+io:
+  input_dir: "templates/in"
+  output_dir: "templates/out"

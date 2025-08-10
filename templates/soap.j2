@@ -1,0 +1,16 @@
+# SOAP Note
+
+**S (Subjective)**
+{{ subjective }}
+
+**O (Objective/Session Observations)**
+Therapist-client dialogue summary with notable quotes/timecodes:
+{% for item in observations -%}
+- [{{ item.time }}] {{ item.speaker }}: "{{ item.quote }}"
+{% endfor %}
+
+**A (Assessment)**
+{{ assessment }}
+
+**P (Plan)**
+{{ plan }}
